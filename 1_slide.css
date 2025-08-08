@@ -1,0 +1,185 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300italic);
+#Tittle_place {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#Title_Hap {
+    text-decoration: white;
+    color: rgb(12, 12, 12);
+}
+
+.Name {
+    text-shadow: 100px;
+    margin: 0 auto;
+    font-size: small;
+}
+
+#line {
+    width: 200px;
+    margin-top: -35px;
+}
+
+#Design_main {
+    background-color: #F9AFAF;
+}
+
+#placement {
+    margin: 100px 0px 0px 0px;
+}
+
+.candle {
+    display: flex;
+    background-color: rgb(251, 255, 240);
+    width: 5px;
+    height: 20px;
+    margin: auto;
+    position: relative;
+    animation-name: drop;
+    animation-duration: 6s;
+}
+
+.block_cake {
+    display: flex;
+    height: 70px;
+    width: 200px;
+    border: 5px;
+    margin: auto;
+    /* border: 1px solid red; */
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+.creme {
+    display: flex;
+    background-color: white;
+    width: 200px;
+    height: 10px;
+    /* border: 1px solid rgb(225, 255, 0); */
+    margin: 0 auto;
+    border-radius: 5px 5px 0px 0px;
+    position: relative;
+    animation-name: drop;
+    animation-duration: 5.5s;
+}
+
+.Teig {
+    background-color: brown;
+    height: 10px;
+    width: 200px;
+    /* border: 1px solid rgb(179, 255, 0); */
+    margin: 0 auto;
+    position: relative;
+    animation-name: drop;
+    animation-duration: 5s;
+}
+
+.Brownie {
+    background-color: aqua;
+    margin: 0 auto;
+    /* border: 1px solid rgb(255, 0, 225); */
+    height: 10px;
+    width: 200px;
+    position: relative;
+    animation-name: drop;
+    animation-duration: 4.5s;
+}
+
+.Dark_milk {
+    background-color: rgb(0, 255, 30);
+    margin: 0 auto;
+    /* border: 1px solid rgb(255, 0, 225); */
+    height: 10px;
+    width: 200px;
+    position: relative;
+    animation-name: drop;
+    animation-duration: 4s;
+}
+
+.White_choco {
+    background-color: bisque;
+    margin: 0 auto;
+    height: 10px;
+    width: 200px;
+    /* border: 1px solid yellowgreen; */
+    position: relative;
+    animation-name: drop;
+    animation-duration: 3.5s;
+}
+
+.bite_choco {
+    background-color: rgb(128, 74, 9);
+    margin: 0 auto;
+    height: 10px;
+    width: 200px;
+    /* border: 1px solid yellowgreen; */
+    position: relative;
+    animation-name: drop;
+    animation-duration: 3s;
+}
+
+.sweetie_choco {
+    background-color: rgba(91, 178, 79, 0.662);
+    margin: 0 auto;
+    height: 10px;
+    width: 200px;
+    border-radius: 0px 0px 3px 3px;
+    /* border: 1px solid yellowgreen; */
+    position: relative;
+    animation-name: drop;
+    animation-duration: 2.5s;
+}
+
+.Stand {
+    background-color: rgba(115, 118, 115, 0.662);
+    margin: 0 auto;
+    height: 10px;
+    width: 225px;
+    /* border: 1px solid yellowgreen; */
+    animation-name: drop;
+    animation-duration: 2s;
+    position: relative;
+}
+
+.Table {
+    background-color: rgba(181, 38, 38, 0.662);
+    margin: 0 auto;
+    height: 10px;
+    width: 304px;
+    /* border: 1px solid yellowgreen; */
+    position: relative;
+    /* animation-name: in; */
+    animation-name: slide-in;
+    animation-duration: 1s;
+    /* animation-iteration-count: 2;
+    animation-direction: alternate; */
+}
+
+@keyframes in {
+    0% {
+        transform: translateY(100px);
+    }
+    /* 10% {
+        transform: translateY(110vh);
+    } */
+}
+
+@keyframes drop {
+    from {
+        top: -300px;
+    }
+    to {
+        top: 0px;
+    }
+}
+
+@keyframes slide-in {
+    from {
+        left: -300px;
+    }
+    to {
+        left: 0px;
+    }
+}
